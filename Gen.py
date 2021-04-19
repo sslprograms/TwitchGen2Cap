@@ -24,7 +24,7 @@ def solveCaptcha():
         time.sleep(30)
         with requests.session() as session:
             getSolved = session.get(f'http://2captcha.com/res.php?key={cap2}&action=get&id={captchaKey}')
-        return getSolved.text.split('OK|')[1]
+        return getSolved.text.split('OK|')[0]
     except:
         pass
 
