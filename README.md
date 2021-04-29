@@ -1,4 +1,2 @@
-# TwitchGen2Cap
-Twitch Generator using 2Captcha!
-
+# DONT USE THIS ITS BROKEN AND MADE SUCKY
 (SSL#4813)
